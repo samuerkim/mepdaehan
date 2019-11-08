@@ -42,10 +42,7 @@
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#testemunhos">Testemunhos</a>
+            <a class="nav-link js-scroll-trigger" href="#signup">Testimony</a>
           </li>
         </ul>
       </div>
@@ -149,6 +146,31 @@
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
+          <!-- forms 2 bootstrap-->
+              <div class="form">
+                  <h1 class="heading"><strong>Formulário de Testemunho</strong>: <span></span></h1>
+                <form action="" method="post" role="form" class="contactForm">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <div class="text-center"><button type="submit" class="btn btn-primary mx-auto">Send Message</button></div>
+                </form>
+              </div>
+  
+          <!--
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
 
@@ -156,56 +178,15 @@
             <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
             <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
           </form>
-
+          -->  
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Testemunhos -->
-  <section id="testemunhos" class="signup-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Test</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Forms -->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-		    <div class="form_main">
-                <h4 class="heading"><strong>Formulário de Testemunho</strong>: <span></span></h4>
-                <div class="form">
-                  <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
-                    <input type="text" required="" placeholder="Nome" value="" name="name" class="txt">
-                    <input type="text" required="" placeholder="Assunto" value="" name="mob" class="txt">
-                    <!-- <input type="text" required="" placeholder="???" value="" name="email" class="txt"> -->
-                    
-                	 <textarea placeholder="Your Message" name="mess" type="text" class="txt_3"></textarea>
-                     <input type="submit" value="submit" name="submit" class="txt2">
-                  </form>
-                </div>
-        </div>
-      </div>
-  </div>
-</div>
+<!-- google maps-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0724891104055!2d-46.627170085022065!3d-23.565839884680667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5973049fe591%3A0xf9c93da64e09d3a1!2sRua%20Muniz%20de%20Sousa%2C%20297%20-%20Aclima%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001534-001!5e0!3m2!1spt-BR!2sbr!4v1573175918708!5m2!1spt-BR!2sbr" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 
   <!-- Contact Section -->
   <section class="contact-section bg-black">

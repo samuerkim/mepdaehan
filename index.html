@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <!-- Timer -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="shortcut icon" href="MEP_LOGO.png">
   
   <title>MEP - Ministério Em Português </title>
@@ -21,7 +24,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
-
+  
 </head>
 
 <body id="page-top">
@@ -54,13 +57,11 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">MEP</h1>
-      <!--
+        <!-- <h1 class="mx-auto my-0 text-uppercase">MEP</h1> -->
+        <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">A Ele ministramos o louvor</h2> -->
         <img src="img/MEP_LOGO2.png" class="img-fluid" alt="">
-      -->
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A Ele ministramos o louvor</h2>
-      </br>
-        <a href="#service" class="btn btn-primary js-scroll-trigger">Cultos</a>
+          
+          <!-- <a href="#service" class="btn btn-primary js-scroll-trigger">Cultos</a> -->
       </div>
     </div>
   </header>
@@ -98,6 +99,57 @@
   </section>
   
   <!-- Projects Section -->
+  <section id="projects" class="projects-section text-center">
+      <div class="container">
+        <body style="background-color: black">
+        <!--Inicio timer-->
+        <h1 class="mx-auto my-0 text-uppercase text-white" style="font-size: 50px">Can We Just Talk?</h1>
+        <br>
+        <h2 class="mx-auto text-white-50" style="font-size: 20px">"Um homem sozinho pode ser vencido, mas dois conseguem defender-se. Um cordão de três dobras não se rompe com facilidade." </br>(Eclesiastes 4:12)</h2>
+        <br>
+        <a href="https://forms.gle/CmtiffZrpm6kHQzS8" class="btn btn-primary js-scroll-trigger">Preencher Forms</a>
+      </body>
+        <body>
+            
+            <p id="demo" class="text-white" style="font-size:15px"></p>
+            
+            <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("May 17, 2020 23:59:59").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Forms encerrado. Obrigado pelo preenchimento. Anunciaremos mais informações em breve";
+              }
+            }, 1000);
+            </script>
+            
+            </body>
+          </br></br></br></br></br>
+          </br>
+          </br>
+          </div>
+
   <section id="projects" class="projects-section bg-light">
     <div class="container">
       
@@ -123,7 +175,7 @@
           </div>
         </div>
       </div>
-
+                  
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-1 mb-lg-0">
         <div class="col-lg-6">
@@ -171,13 +223,14 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Novidades</h4>
+                    <h4 class="text-white">Novidades!</h4>
                     <p class="mb-0 text-white-50">
-                      🆕Acompanhamento do Livro de Salmos com a Equipe de Louvor
-                      <br>
-                      🙋‍♂️🙋Interessados: <a href="http://bit.ly/2Pfo5U0" target=_blank>Leitura de Salmos</a>
-                      <br>
-                      <div class="mb-0 text-white-50">📍Local: Onde estiver </div>
+                      Acompanhamento do livro de Salmos:
+                      </br>
+                      <a href="http://bit.ly/2Pfo5U0" target=_blank>Leitura de Salmos</a>
+                    </br></br>
+                      <div class="mb-0 text-white-50">Can We Just Talk?:</div>
+                      <a href="https://forms.gle/CmtiffZrpm6kHQzS8" target=_blank> Disponibilidade </a>
                       </p>
                     <hr class="d-none d-lg-block mb-0 mr-0">
                 </div>
